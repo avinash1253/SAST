@@ -13,7 +13,7 @@ vulnerabilities_md = """
 ```java
 String query = "SELECT * FROM users WHERE username = '" + username + "' AND password = '" + password + "'";
 Statement stmt = connection.createStatement();
-ResultSet rs = stmt.executeQuery(query);
+ResultSet rs = stmt.executeQuery(query);```
 Python:
 
 query = "SELECT * FROM users WHERE username = '{}' AND password = '{}'".format(username, password)
